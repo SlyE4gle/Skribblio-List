@@ -1,0 +1,14 @@
+﻿<Window x:Name="Skribblio_DeDuper" x:Class="Skribblio_List.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Skribblio_List"
+        mc:Ignorable="d"
+        Title="Skribblio_DeDuper" Height="106.543" Width="701.971">
+    <Grid Margin="0,0,69.6,251">
+        <TextBox x:Name="wordList_box" HorizontalAlignment="Left" Height="24" Margin="38,30,0,-54" TextWrapping="Wrap" Text="Hard_Words.txt" VerticalAlignment="Top" Width="469" RenderTransformOrigin="0.497,0.534" FontStyle="Italic"/>
+        <Button x:Name="deDupe_button" Content="DeDuplicate" HorizontalAlignment="Left" Margin="528,23,0,-68" VerticalAlignment="Top" Width="75" Height="45" IsDefault="True" Background="#FF4EE72F" Click="DeDupe_button_Click"/>
+
+    </Grid>
+</Window>
