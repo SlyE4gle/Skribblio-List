@@ -5,6 +5,11 @@ VisualStudioVersion = 16.0.28803.352
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Skribblio List", "Skribblio List.csproj", "{9EB5E802-B4DB-4138-9F7B-872733B09CD5}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{E9DDDDE2-350E-4665-835F-4FC13E91C974}"
+	ProjectSection(SolutionItems) = preProject
+		Skribblio List.zip = Skribblio List.zip
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
